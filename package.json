@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/bimivalidator",
+  "version": "1.1.9",
+  "description": "BIMI Validator checks if a domain has a valid BIMI record published in DNS. BIMI enables domain owners to display verified logos in supported email clients.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/bimivalidator-API.git"
+  },
+  "keywords": [
+    "bimi","bimi validator","email brand check","bimi record","brand indicators"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/bimivalidator-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/bimivalidator?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.8.4"
+  }
+}
